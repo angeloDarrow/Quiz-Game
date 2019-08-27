@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Quiz</title>
+</head>
+<body id="html-body" >
+  <h1 id="game-title">
+    Darrow's Quiz Game
+  </h1>
+  <h3 id="text-area">
+     Welcome to this game!
+    Its a quiz of 5 questions. Answer
+     5 out of 5 correctly to win!
+     <br>
+     Don't worry if you don't win at your first try.
+     You can try again. The point of this game is to test your memory, deduction and observation skills!
+  </h3>
+    <br>
+    <br>
+    <button type="button" id="new-game-button" class="btn-group btn-primary">
+      New Game
+    </button>
+  
+    <h2 id="question-value"></h2>
+    <br>
+    <br>
+    <div id="answerbutton" class="btn-group btn-primary" value="">
+        <button  id='first-answer-value'type="button" class="btn btn-primary"  value="answerValue" ></button><br><br>
+        <button  id="second-answer-value" class="btn btn-primary" value="answerValue"></button><br><br> 
+        <button  id='third-answer-value' class="btn btn-primary" value="answerValue"></button><br><br> 
+        <button  id='fourth-answer-value'class="btn btn-primary" value="answerValue"></button>
+        <button  id='fifth-answer-value'class="btn btn-primary" value="answerValue"></button>  
+    </div>
+  
+      <img id="game-over-photo" src="imgs/gameOverImg.jpg" width="700px;" height="400px;">
+      <img id="won-photo" src="imgs/giphy.gif" width="700px;" height="350px;">
+
+
+  <script src="quizGame.js"></script>
+</body>
+</html>
